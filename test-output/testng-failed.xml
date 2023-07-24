@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [API TestSuite 1]">
+  <listeners>
+    <listener class-name="common.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="TLA_API_Testing(failed)">
+    <classes>
+      <class name="testcases.test_003_EnrouteGPSActivity">
+        <methods>
+          <include name="test_EnrouteGPSActivity_003"/>
+        </methods>
+      </class> <!-- testcases.test_003_EnrouteGPSActivity -->
+    </classes>
+  </test> <!-- TLA_API_Testing(failed) -->
+</suite> <!-- Failed suite [API TestSuite 1] -->

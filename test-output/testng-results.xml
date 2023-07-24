@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-24T12:35:54 IST" name="API TestSuite 1" finished-at="2023-07-24T12:36:35 IST" duration-ms="41058">
+    <groups>
+    </groups>
+    <test started-at="2023-07-24T12:35:54 IST" name="TLA_API_Testing" finished-at="2023-07-24T12:36:35 IST" duration-ms="41058">
+      <class name="testcases.test_002_StopGPSActivity">
+        <test-method signature="test_StopGPSActivity_002()[pri:0, instance:testcases.test_002_StopGPSActivity@710c2b53]" started-at="2023-07-24T12:36:32 IST" name="test_StopGPSActivity_002" finished-at="2023-07-24T12:36:35 IST" duration-ms="2472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_StopGPSActivity_002 -->
+      </class> <!-- testcases.test_002_StopGPSActivity -->
+      <class name="testcases.test_003_EnrouteGPSActivity">
+        <test-method signature="test_EnrouteGPSActivity_003()[pri:0, instance:testcases.test_003_EnrouteGPSActivity@48075da3]" started-at="2023-07-24T12:35:54 IST" name="test_EnrouteGPSActivity_003" finished-at="2023-07-24T12:36:31 IST" duration-ms="37621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_EnrouteGPSActivity_003 -->
+      </class> <!-- testcases.test_003_EnrouteGPSActivity -->
+      <class name="testcases.test_001_StartGPSActivity">
+        <test-method signature="test_StartGPSActivity_001()[pri:0, instance:testcases.test_001_StartGPSActivity@2767e23c]" started-at="2023-07-24T12:36:31 IST" name="test_StartGPSActivity_001" finished-at="2023-07-24T12:36:32 IST" duration-ms="868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_StartGPSActivity_001 -->
+      </class> <!-- testcases.test_001_StartGPSActivity -->
+    </test> <!-- TLA_API_Testing -->
+  </suite> <!-- API TestSuite 1 -->
+</testng-results>

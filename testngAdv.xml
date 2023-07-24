@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="API TestSuite 2">
+  <test name="TLA_API_Testing">
+  <listeners>
+        <listener class-name="common.ListenersAdv"/>
+    </listeners>
+    <classes>
+    	 <class name="testcases.test_003_EnrouteGPSActivity"/>
+   		 <class name="testcases.test_001_StartGPSActivity"/>
+      	 <class name="testcases.test_002_StopGPSActivity"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
